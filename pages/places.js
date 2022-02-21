@@ -48,16 +48,16 @@ const PlacesAutocomplete = ({ setSelected }) => {
   const {
     ready,
     value,
-    suggestions: { status, data },
     setValue,
+    suggestions: { status, data },
     clearSuggestions,
   } = usePlacesAutocomplete();
 
-  const handleSelect = async (val) => {
-    setValue(val, false);
+  const handleSelect = async (address) => {
+    setValue(address, false);
     clearSuggestions();
 
-    const results = await getGeocode({ address: val });
+    const results = await getGeocode({ address });
     const { lat, lng } = await getLatLng(results[0]);
     setSelected({ lat, lng });
   };
