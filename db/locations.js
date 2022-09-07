@@ -1,0 +1,32 @@
+export const locations = [
+  {
+    name: "dummy 1",
+    lat: 45.405427360860855,
+    long: -75.7044977305442,
+    desc: "Here is dummy # 1",
+    open: "14:00",
+    close: "20:00",
+    type: "grocery",
+    address: "384 Arlington Ave",
+  },
+  {
+    name: "dummy 2",
+    lat: 45.41374163425157,
+    long: -75.70625807102321,
+    desc: "Here is dummy # 2",
+    open: "14:00",
+    close: "20:00",
+    type: "grocery",
+    address: "211 Bronson Ave",
+  },
+  {
+    name: "dummy 3",
+    lat: 45.41047770852372,
+    long: -75.70837047102322,
+    desc: "Here is dummy # 3",
+    open: "14:00",
+    close: "20:00",
+    type: "meal",
+    address: "760 Somerset St W",
+  },
+];

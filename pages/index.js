@@ -15,10 +15,10 @@ export default function Home() {
     <>
       <NavBar />
       <Grid container spacing={1}>
-        <Grid item xs={7}>
+        <Grid item xs={5}>
           <SideBar />
         </Grid>
-        <Grid item xs={5}>
+        <Grid item xs={7}>
           <Places />
         </Grid>
       </Grid>
